@@ -221,14 +221,15 @@ const App = (function(Data, UI){
     }
     // This function displays an error message in the UI.
     function Error(Reason){
-        const container = document.querySelector(".container");
+        const container = document.querySelector("#alert");
         let alertDiv = document.querySelector(".alert");
         if (alertDiv) {
             alertDiv.remove();
         }
         // Create a new div to hold the alertDiv
         const centerDiv = document.createElement("div");
-        centerDiv.classList.add("d-flex", "justify-content-center");
+        centerDiv.style.margin = "auto";
+        centerDiv.style.textAlign = "center";
         // Create the alertDiv
         alertDiv = document.createElement("div");
         alertDiv.classList.add("alert", "alert-warning", "col-12");
