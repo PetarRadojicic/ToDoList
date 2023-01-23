@@ -177,6 +177,7 @@ const UI = (function(){
     }
     // Object returned by the module
     return {
+        TakeSelectors: () => htmlSelectors,
         htmlSelectors: htmlSelectors,
         AddToList: AddToList,
         UpdateList: UpdateList,
