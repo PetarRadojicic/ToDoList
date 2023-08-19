@@ -1,3 +1,3 @@
 # ToDoList
-It uses local storage to save state of timers and names
-test site: https://mass-produced-jumpe.000webhostapp.com/
+It utilizes local storage to preserve the state of timers and their corresponding names.
+its hosted on https://radojicic.co/ToDoList/
